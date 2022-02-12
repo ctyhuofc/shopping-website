@@ -1,0 +1,21 @@
+.body{
+    background-color: #ABD37B;
+}
+.nav-link{
+color: #87F99E;
+
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav{
+    background-color: #1E693C;
+}
+
+#contact{
+color: white;
+display: block-inline;
+}
+
