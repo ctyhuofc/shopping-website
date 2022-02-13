@@ -1,4 +1,4 @@
-.body{
+body{
     background-color: #ABD37B;
 }
 .nav-link{
@@ -18,4 +18,25 @@ color: #87F99E;
 color: white;
 display: block-inline;
 }
+
+@media screen and (max-width: 799px){
+    .nav{
+  background-color: #ABD37B;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px) {
+    .nav{
+  background-color: red;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+    .card{
+      width: 400px;
+    }
+  }
+
+
 
