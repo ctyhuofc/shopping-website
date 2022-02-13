@@ -23,12 +23,10 @@
     crossorigin="anonymous"></script>
 
   <!-- main container for site -->
-
-
     <!-- navigation bar -->
-    <div class="container">
-      <div class="container" id="main">
-    <ul class="nav py-2" id="top-nav-bar">
+    <div class="container" id="main">
+    <nav>
+      <ul class="nav py-2" id="top-nav-bar">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
       </li>
@@ -39,21 +37,25 @@
         <a class="nav-link" href="#">About Us</a>
       </li>
       <li class="nav-item">
-      </li>
-      <li class="nav-item">
         <a class="nav-link" id="contact">Contact Us</a></span>
       </li>
+      <form>
+        <input type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <li class="nav-item ms-auto">
+        <a class="nav-link" href="#">Shopping Cart</a>
+      </li>
     </ul>
+
+
+
     <div class="card bg-dark text-white">
       <img src="./images/bogart-header.jfif" class="card-img-header" alt="bogarts logo">
     </div>
 
-
- 
-
     <!-- product-grid -->
-    <div class="container">
-
+    <div class="container" id="products">
     <div class="row">
       <div class="col-4 mt-4 mobile">
         <div class="card">
@@ -123,14 +125,10 @@
             <a href="#" class="btn btn-primary">Add to cart</a>
           </div>
         </div>
-
-      </div>
-    </div>
-
-  </div>
-  <div class="container">
+</div>
     <div class="bg-success text-center text-white py-3 mt-5">
     2022 Bogart's Inc.
+  </div>
   </div>
   </div>
   </div>
