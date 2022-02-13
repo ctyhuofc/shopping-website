@@ -45,4 +45,10 @@ display: block-inline;
     background-color: #ABD37B;
 }
 
+.btn{
+background-color: black;
+color: white;
+padding: 2px
+}
+
 
