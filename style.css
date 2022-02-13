@@ -42,7 +42,7 @@ display: block-inline;
   }
 
     #products{
-    background-color: #ABD37B;
+    background-color: #ABD37B;     background-image: linear-gradient(to left, #141313, #ABD37B)
 }
 
 .btn{
@@ -51,4 +51,12 @@ color: white;
 padding: 2px
 }
 
+.card{
+    border-color: black;
+}
 
+#footer{
+    background-color: #ABD37B;     background-image: linear-gradient(to left, #141313, #ABD37B);
+border-top: 1px solid white;
+margin-right: 1%; 
+}
