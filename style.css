@@ -22,28 +22,26 @@ color: white;
 display: block-inline;
 }
 
-@media screen and (max-width: 799px){
+@media (max-width: 799px){
     .nav{
   background-color: #ABD37B;
 }
 }
 
-@media screen and (min-width: 800px) and (max-width:1200px) {
+@media (min-width: 800px) and (max-width:1200px) {
     .nav{
   background-color: red;
 }
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
 
-    .card{
-      width: 400px;
+    .mobile{
+      width: 100%;
     }
   }
 
-@media (min-width: 1200px){
     #main{
     background-color: #ABD37B;
-    width: 1200px;
-}
+        width: 80%
 }
