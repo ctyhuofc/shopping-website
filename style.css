@@ -1,5 +1,8 @@
 body{
-    background-color: #ABD37B;
+    background-color: white;
+    background-image: url(./images/smoke-background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-link{
 color: #87F99E;
@@ -38,5 +41,9 @@ display: block-inline;
     }
   }
 
-
-
+@media (min-width: 1200px){
+    #main{
+    background-color: #ABD37B;
+    width: 1200px;
+}
+}
